@@ -1,0 +1,38 @@
+.mainconatinerofnavbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: teal;
+}
+
+.containerofnav {
+  max-width: 1360px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.containerofnav h2 {
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.elementsofnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.elementsofnav p {
+  padding: 5px 8px;
+  border: 1px solid;
+  border-radius: 15px;
+  cursor: pointer;
+}
